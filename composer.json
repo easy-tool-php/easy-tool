@@ -22,7 +22,8 @@
         "easy-tool/framework": "~1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "*",
+        "easy-tool/framework": "~1.0-dev"
     },
     "autoload": {
         "psr-4": {

@@ -1,0 +1,6 @@
+#!/usr/bin/env php
+<?php
+
+$composerLoader = require __DIR__ . '/../vendor/autoload.php';
+
+Bootstrap::getInstance()->createApplication()->handleCommand();
