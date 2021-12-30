@@ -19,14 +19,14 @@
     },
     "require": {
         "php": ">=7.3",
-        "easy-tool/framework": "*"
+        "easy-tool/framework": "~1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "*"
     },
     "autoload": {
         "psr-4": {
-            "EasyTool\\Framework\\": "src"
+            "": "app"
         }
     }
 }
