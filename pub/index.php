@@ -1,5 +1,9 @@
 <?php
 
-require __DIR__ . '/../vendor/autoload.php';
+use EasyTool\Framework\Bootstrap;
 
-Bootstrap::getInstance()->createApplication()->handleHttp();
+$classLoader = require __DIR__ . '/../vendor/autoload.php';
+
+Bootstrap::getInstance()
+    ->createApplication($classLoader, dirname(__DIR__))
+    ->handleHttp();

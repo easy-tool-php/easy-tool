@@ -1,6 +1,10 @@
 #!/usr/bin/env php
 <?php
 
-$composerLoader = require __DIR__ . '/../vendor/autoload.php';
+use EasyTool\Framework\Bootstrap;
 
-Bootstrap::getInstance()->createApplication()->handleCommand();
+$classLoader = require __DIR__ . '/../vendor/autoload.php';
+
+Bootstrap::getInstance()
+    ->createApplication($classLoader, dirname(__DIR__))
+    ->handleCommand();
