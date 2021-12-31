@@ -12,6 +12,8 @@ composer create-project easy-tool/easy-tool .
 
 ## Standards
 
+The framework is going to follow these standards:
+
 |Standard|Description|
 |---|---|
 |[PSR-1](https://www.php-fig.org/psr/psr-1/)|Basic Coding Standard|
