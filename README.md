@@ -15,7 +15,6 @@ composer create-project easy-tool/easy-tool .
 |Standard|Description|
 |---|---|
 |[PSR-1](https://www.php-fig.org/psr/psr-1/)|Basic Coding Standard|
-|[PSR-2](https://www.php-fig.org/psr/psr-2/)|Coding Style Guide|
 |[PSR-3](https://www.php-fig.org/psr/psr-3/)|Logger Interface|
 |[PSR-4](https://www.php-fig.org/psr/psr-4/)|Autoloader|
 |[PSR-6](https://www.php-fig.org/psr/psr-6/)|Caching Interface|
@@ -25,3 +24,6 @@ composer create-project easy-tool/easy-tool .
 |[PSR-13](https://www.php-fig.org/psr/psr-13/)|Link definition interfaces|
 |[PSR-14](https://www.php-fig.org/psr/psr-14/)|Event Dispatcher|
 |[PSR-15](https://www.php-fig.org/psr/psr-15/)|HTTP Server Request Handlers|
+|[PSR-16](https://www.php-fig.org/psr/psr-16/)|Simple Cache|
+|[PSR-17](https://www.php-fig.org/psr/psr-17/)|HTTP Factories|
+|[PSR-18](https://www.php-fig.org/psr/psr-18/)|HTTP Client|
