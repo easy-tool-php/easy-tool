@@ -10,8 +10,9 @@ Create a new folder as project root, execute below command to get source files.
 composer create-project easy-tool/easy-tool .
 ```
 
-## Standard
+## Standards
 
+|Standard|Description|
 |---|---|
 |[PSR-1](https://www.php-fig.org/psr/psr-1/)|Basic Coding Standard|
 |[PSR-2](https://www.php-fig.org/psr/psr-2/)|Coding Style Guide|
