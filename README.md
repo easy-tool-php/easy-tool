@@ -14,18 +14,18 @@ composer create-project easy-tool/easy-tool .
 
 The framework is going to follow these standards:
 
-|Standard|Description|
-|---|---|
-|[PSR-1](https://www.php-fig.org/psr/psr-1/)|Basic Coding Standard|
-|[PSR-3](https://www.php-fig.org/psr/psr-3/)|Logger Interface|
-|[PSR-4](https://www.php-fig.org/psr/psr-4/)|Autoloader|
-|[PSR-6](https://www.php-fig.org/psr/psr-6/)|Caching Interface|
-|[PSR-7](https://www.php-fig.org/psr/psr-7/)|HTTP message interfaces|
-|[PSR-11](https://www.php-fig.org/psr/psr-11/)|Container interface|
-|[PSR-12](https://www.php-fig.org/psr/psr-12/)|Extended Coding Style|
-|[PSR-13](https://www.php-fig.org/psr/psr-13/)|Link definition interfaces|
-|[PSR-14](https://www.php-fig.org/psr/psr-14/)|Event Dispatcher|
-|[PSR-15](https://www.php-fig.org/psr/psr-15/)|HTTP Server Request Handlers|
-|[PSR-16](https://www.php-fig.org/psr/psr-16/)|Simple Cache|
-|[PSR-17](https://www.php-fig.org/psr/psr-17/)|HTTP Factories|
-|[PSR-18](https://www.php-fig.org/psr/psr-18/)|HTTP Client|
+|Standard|Title|Description|
+|---|---|---|
+|[PSR-1](https://www.php-fig.org/psr/psr-1/)|Basic Coding Standard|-|
+|[PSR-3](https://www.php-fig.org/psr/psr-3/)|Logger Interface|pending|
+|[PSR-4](https://www.php-fig.org/psr/psr-4/)|Autoloader|Use Composer|
+|[PSR-6](https://www.php-fig.org/psr/psr-6/)|Caching Interface|pending|
+|[PSR-7](https://www.php-fig.org/psr/psr-7/)|HTTP message interfaces|pending|
+|[PSR-11](https://www.php-fig.org/psr/psr-11/)|Container interface|pending|
+|[PSR-12](https://www.php-fig.org/psr/psr-12/)|Extended Coding Style|Use PHP_CodeSniffer for checking|
+|[PSR-13](https://www.php-fig.org/psr/psr-13/)|Link definition interfaces|pending|
+|[PSR-14](https://www.php-fig.org/psr/psr-14/)|Event Dispatcher|pending|
+|[PSR-15](https://www.php-fig.org/psr/psr-15/)|HTTP Server Request Handlers|pending|
+|[PSR-16](https://www.php-fig.org/psr/psr-16/)|Simple Cache|pending|
+|[PSR-17](https://www.php-fig.org/psr/psr-17/)|HTTP Factories|pending|
+|[PSR-18](https://www.php-fig.org/psr/psr-18/)|HTTP Client|pending|
