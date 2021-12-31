@@ -1,6 +1,6 @@
 # EasyTool
 
-This is a simple PHP framework built with [composer](https://getcomposer.org/).
+This is a simple PHP framework built with [Composer](https://getcomposer.org/).
 
 ## Installation
 
@@ -18,7 +18,7 @@ The framework is going to follow these standards:
 |---|---|---|
 |[PSR-1](https://www.php-fig.org/psr/psr-1/)|Basic Coding Standard|-|
 |[PSR-3](https://www.php-fig.org/psr/psr-3/)|Logger Interface|pending|
-|[PSR-4](https://www.php-fig.org/psr/psr-4/)|Autoloader|Use Composer|
+|[PSR-4](https://www.php-fig.org/psr/psr-4/)|Autoloader|Use [Composer](https://getcomposer.org/) as dependency management|
 |[PSR-6](https://www.php-fig.org/psr/psr-6/)|Caching Interface|pending|
 |[PSR-7](https://www.php-fig.org/psr/psr-7/)|HTTP message interfaces|pending|
 |[PSR-11](https://www.php-fig.org/psr/psr-11/)|Container interface|pending|
