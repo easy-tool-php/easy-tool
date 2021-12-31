@@ -1,4 +1,4 @@
-# Easy tool
+# EasyTool
 
 This is a simple PHP framework built with [composer](https://getcomposer.org/).
 
