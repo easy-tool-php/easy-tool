@@ -25,6 +25,6 @@ The framework is going to follow these standards:
 |[PSR-13](https://www.php-fig.org/psr/psr-13/)|Link definition interfaces|pending|
 |[PSR-14](https://www.php-fig.org/psr/psr-14/)|Event Dispatcher|pending|
 |[PSR-15](https://www.php-fig.org/psr/psr-15/)|HTTP Server Request Handlers|pending|
-|[PSR-16](https://www.php-fig.org/psr/psr-16/)|Simple Cache|pending|
+|[PSR-16](https://www.php-fig.org/psr/psr-16/)|Simple Cache|Extends `\Psr\SimpleCache\CacheInterface`|
 |[PSR-17](https://www.php-fig.org/psr/psr-17/)|HTTP Factories|pending|
 |[PSR-18](https://www.php-fig.org/psr/psr-18/)|HTTP Client|pending|
