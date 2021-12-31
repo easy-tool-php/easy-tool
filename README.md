@@ -19,7 +19,6 @@ The framework is going to follow these standards:
 |[PSR-1](https://www.php-fig.org/psr/psr-1/)|Basic Coding Standard|-|
 |[PSR-3](https://www.php-fig.org/psr/psr-3/)|Logger Interface|Extends `\Psr\Log\AbstractLogger`|
 |[PSR-4](https://www.php-fig.org/psr/psr-4/)|Autoloader|Use [Composer](https://getcomposer.org/) as dependency management|
-|[PSR-6](https://www.php-fig.org/psr/psr-6/)|Caching Interface|pending|
 |[PSR-7](https://www.php-fig.org/psr/psr-7/)|HTTP message interfaces|pending|
 |[PSR-11](https://www.php-fig.org/psr/psr-11/)|Container interface|pending|
 |[PSR-12](https://www.php-fig.org/psr/psr-12/)|Extended Coding Style|Use [PHP_CodeSniffer](https://github.com/squizlabs/php_codesniffer) for checking|
