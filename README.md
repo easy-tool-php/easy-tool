@@ -23,7 +23,7 @@ The framework is going to follow these standards:
 |[PSR-11](https://www.php-fig.org/psr/psr-11/)|Container interface|pending|
 |[PSR-12](https://www.php-fig.org/psr/psr-12/)|Extended Coding Style|Passed [PHP_CodeSniffer](https://github.com/squizlabs/php_codesniffer) checking|
 |[PSR-13](https://www.php-fig.org/psr/psr-13/)|Link definition interfaces|pending|
-|[PSR-14](https://www.php-fig.org/psr/psr-14/)|Event Dispatcher|Implements `Psr\EventDispatcher\EventDispatcherInterface`<br/>`Psr\EventDispatcher\ListenerProviderInterface`|
+|[PSR-14](https://www.php-fig.org/psr/psr-14/)|Event Dispatcher|Implements `\Psr\EventDispatcher\EventDispatcherInterface`<br/>and `\Psr\EventDispatcher\ListenerProviderInterface`|
 |[PSR-15](https://www.php-fig.org/psr/psr-15/)|HTTP Server Request Handlers|pending|
 |[PSR-16](https://www.php-fig.org/psr/psr-16/)|Simple Cache|Implements `\Psr\SimpleCache\CacheInterface`|
 |[PSR-17](https://www.php-fig.org/psr/psr-17/)|HTTP Factories|pending|
