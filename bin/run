@@ -1,10 +1,10 @@
 #!/usr/bin/env php
 <?php
 
-use EasyTool\Framework\Bootstrap;
+use EasyTool\Framework\App;
 
 $classLoader = require __DIR__ . '/../vendor/autoload.php';
 
-Bootstrap::getInstance()
-    ->createApplication($classLoader, dirname(__DIR__))
+App\ObjectManager::getInstance()
+    ->get(App::class, ['classLoader' => $classLoader, 'directoryRoot' => dirname(__DIR__)])
     ->handleCommand();
