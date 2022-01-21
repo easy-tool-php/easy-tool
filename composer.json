@@ -12,22 +12,16 @@
             "homepage": "https://zengliwei.github.io"
         }
     ],
-    "extra": {
-        "branch-alias": {
-            "dev-main": "1.0.x-dev"
-        }
-    },
     "require": {
-        "php": ">=7.3",
+        "php": ">=7.4",
         "easy-tool/framework": "~1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "*",
-        "easy-tool/framework": "~1.0-dev"
+        "phpunit/phpunit": "*"
     },
     "autoload": {
         "psr-4": {
-            "": "app/code"
+            "App\\": "app/modules"
         }
     }
 }
