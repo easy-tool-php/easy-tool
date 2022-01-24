@@ -19,6 +19,7 @@ The framework is following these standards:
 |[PSR-1](https://www.php-fig.org/psr/psr-1/)|Basic Coding Standard|Passed [PHP_CodeSniffer](https://github.com/squizlabs/php_codesniffer) checking|
 |[PSR-3](https://www.php-fig.org/psr/psr-3/)|Logger Interface|Implements<br/>- `\Psr\Log\AbstractLogger`|
 |[PSR-4](https://www.php-fig.org/psr/psr-4/)|Autoloader|Use [Composer](https://getcomposer.org/) as dependency management|
+|[PSR-6](https://www.php-fig.org/psr/psr-6/)|Caching Interface|Implements<br/>- `\Psr\Cache\CacheItemPoolInterface`<br/>- `\Psr\Cache\CacheItemInterface`|
 |[PSR-7](https://www.php-fig.org/psr/psr-7/)|HTTP message interfaces|Implements<br/>- `\Psr\Http\Message\RequestInterface`<br/>- `\Psr\Http\Message\ResponseInterface`<br/>- `\Psr\Http\Message\StreamInterface`<br/>- `\Psr\Http\Message\UriInterface`|
 |[PSR-11](https://www.php-fig.org/psr/psr-11/)|Container interface|Implements<br/>- `Psr\Container\ContainerInterface`|
 |[PSR-12](https://www.php-fig.org/psr/psr-12/)|Extended Coding Style|Passed [PHP_CodeSniffer](https://github.com/squizlabs/php_codesniffer) checking|
