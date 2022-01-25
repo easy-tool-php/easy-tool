@@ -21,7 +21,7 @@ The framework is following these standards:
 |[PSR-4](https://www.php-fig.org/psr/psr-4/)|Autoloader|Use [Composer](https://getcomposer.org/) as dependency management|
 |[PSR-6](https://www.php-fig.org/psr/psr-6/)|Caching Interface|Implements<br/>- `\Psr\Cache\CacheItemPoolInterface`<br/>- `\Psr\Cache\CacheItemInterface`|
 |[PSR-7](https://www.php-fig.org/psr/psr-7/)|HTTP message interfaces|Implements<br/>- `\Psr\Http\Message\RequestInterface`<br/>- `\Psr\Http\Message\ResponseInterface`<br/>- `\Psr\Http\Message\StreamInterface`<br/>- `\Psr\Http\Message\UriInterface`|
-|[PSR-11](https://www.php-fig.org/psr/psr-11/)|Container interface|Implements<br/>- `Psr\Container\ContainerInterface`|
+|[PSR-11](https://www.php-fig.org/psr/psr-11/)|Container interface|Implements<br/>- `\Psr\Container\ContainerInterface`|
 |[PSR-12](https://www.php-fig.org/psr/psr-12/)|Extended Coding Style|Passed [PHP_CodeSniffer](https://github.com/squizlabs/php_codesniffer) checking|
 |[PSR-13](https://www.php-fig.org/psr/psr-13/)|Link definition interfaces|pending|
 |[PSR-14](https://www.php-fig.org/psr/psr-14/)|Event Dispatcher|Implements<br/>- `\Psr\EventDispatcher\EventDispatcherInterface`<br/>-  `\Psr\EventDispatcher\ListenerProviderInterface`|
