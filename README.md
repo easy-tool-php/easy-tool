@@ -47,7 +47,7 @@ composer create-project easy-tool/easy-tool .
 |Directory|Description|
 |---|---|
 |`app/config`|Application config files.|
-|`app/modules`|Store local customized modules. For example a customer module may be located at `app/modules/Customer` with namespace prefix `App\Customer`|
+|`app/modules`|Store local customized modules. For example, a customer module may be located at `app/modules/Customer` with namespace prefix `App\Customer`|
 |`bin`|There is a `run` file which is used to execute console command.|
 |`pub`|Store files which can be accessed through internet.|
 |`var`|Store temporary files like cache, log etc.|
