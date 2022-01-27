@@ -36,7 +36,7 @@ The framework is following these standards:
 |Directory|Description|
 |---|---|
 |`app/config`|Application config files.|
-|`app/modules`||
+|`app/modules`|Store local customized modules.|
 |`bin`|There is a `run` file which is used to execute console command.|
 |`pub`|Store files which can be accessed through internet.|
 |`var`|Store temporary files like cache, log etc.|
