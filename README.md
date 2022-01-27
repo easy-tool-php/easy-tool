@@ -36,6 +36,6 @@ The framework is following these standards:
 |`app/config`|Application config files.|
 |`app/modules`||
 |`bin`|There is a `run` file which is used to execute console command.|
-|`pub`|Include files |
-|`var`|Temp|
+|`pub`|Store files which can be accessed through internet.|
+|`var`|Store temporary files like cache, log etc.|
 |`vendor`|Composer library folder.|
