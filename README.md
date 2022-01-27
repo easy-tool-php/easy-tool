@@ -59,8 +59,8 @@ The framework follows below standards:
 
 |Filename|Description|
 |---|---|
-|`di.php`|Dependency injection configuration, see [https://docs.laminas.dev/laminas-di/v3/config/](https://docs.laminas.dev/laminas-di/v3/config/).|
-|`env.php`|Environment settings including route name, cache setting, database setting etc.|
+|`di.php`|Dependency injection configuration, see [https://docs.laminas.dev/laminas-di/v3/config/#configuration](https://docs.laminas.dev/laminas-di/v3/config/#configuration).|
+|`env.php`|Environment settings including route name, cache setting, database setting etc., see [https://github.com/easy-tool-php/easy-tool/blob/main/app/config/env.php](ss).|
 |`events.php`|Event listener settings.|
 |`middlewares.php`|Middleware class list for handling HTTP request.|
 |`modules.php`|Module status.|
