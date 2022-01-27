@@ -55,15 +55,15 @@ The framework follows below standards:
 
 ## Config Files
 
-### Application config
+### Application Config
 
 |Filename|Description|
 |---|---|
 |`di.php`|Dependency injection configuration, see [https://docs.laminas.dev/laminas-di/v3/config/](https://docs.laminas.dev/laminas-di/v3/config/).|
-|`env.php`|Environment settings.|
-|`events.php`|Events settings.|
-|`middlewares.php`|Middleware settings for handling HTTP request.|
+|`env.php`|Environment settings including route name, cache setting, database setting etc.|
+|`events.php`|Event listener settings.|
+|`middlewares.php`|Middleware class list for handling HTTP request.|
 |`modules.php`|Module status.|
 
-### Module config
+### Module Config
 
