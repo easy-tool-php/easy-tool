@@ -29,9 +29,11 @@ The framework is following these standards:
 |[PSR-17](https://www.php-fig.org/psr/psr-17/)|HTTP Factories|Implements<br/>- `\Psr\Http\Message\RequestFactoryInterface`<br/>- `\Psr\Http\Message\ResponseFactoryInterface`<br/>- `\Psr\Http\Message\StreamFactoryInterface`<br/>- `\Psr\Http\Message\UriFactoryInterface`|
 |[PSR-18](https://www.php-fig.org/psr/psr-18/)|HTTP Client|pending|
 
-## File Structrure
+## File Structure
 
-|Directory|Description
+### Application Structure
+
+|Directory|Description|
 |---|---|
 |`app/config`|Application config files.|
 |`app/modules`||
@@ -39,3 +41,14 @@ The framework is following these standards:
 |`pub`|Store files which can be accessed through internet.|
 |`var`|Store temporary files like cache, log etc.|
 |`vendor`|Composer library folder.|
+
+### Module Structure
+
+|Directory|Description|
+|---|---|
+|`Command`|System retrieves instantiable classes which extend `Symfony\Component\Console\Command\Command` as console commands.|
+|`Controller/Api`|Store |
+|`Controller/Backend`||
+|`Controller/Frontend`||
+|`Setup`||
+|`config`||
