@@ -59,11 +59,15 @@ The framework follows below standards:
 
 |Filename|Description|
 |---|---|
-|`di.php`|Dependency injection configuration, see [https://docs.laminas.dev/laminas-di/v3/config/#configuration](https://docs.laminas.dev/laminas-di/v3/config/#configuration).|
-|`env.php`|Environment settings including route name, cache setting, database setting etc., see [https://github.com/easy-tool-php/easy-tool/blob/main/app/config/env.php](ss).|
-|`events.php`|Event listener settings.|
-|`middlewares.php`|Middleware class list for handling HTTP request.|
+|`di.php`|Dependency injection configuration, see [https://docs.laminas.dev/laminas-di/v3/config/](https://docs.laminas.dev/laminas-di/v3/config/#configuration).|
+|`env.php`|Environment settings including route name, cache setting, database setting etc., click [here](https://github.com/easy-tool-php/easy-tool/blob/main/app/config/env.php) to see file structure.|
+|`events.php`|Event listener settings, click [here](https://github.com/easy-tool-php/easy-tool/blob/main/app/config/events.php) to see file structure.|
+|`middlewares.php`|Middleware class list for handling HTTP request, click [here](https://github.com/easy-tool-php/easy-tool/blob/main/app/config/middlewares.php) to see file structure.|
 |`modules.php`|Module status.|
 
 ### Module Config
 
+|Filename|Description|
+|---|---|
+|`di.php`|Dependency injection configuration, see [https://docs.laminas.dev/laminas-di/v3/config/](https://docs.laminas.dev/laminas-di/v3/config/#configuration).|
+|`events.php`|Event listener settings, file structure is same with the application one.|
