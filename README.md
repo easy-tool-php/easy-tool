@@ -69,5 +69,6 @@ The framework follows below standards:
 
 |Filename|Description|
 |---|---|
+|`api.php`|HTTP API route list.|
 |`di.php`|Dependency injection configuration, check [https://docs.laminas.dev/laminas-di/v3/config/](https://docs.laminas.dev/laminas-di/v3/config/#configuration) for more details.|
 |`events.php`|Event listener settings, file structure is same with the application one.|
