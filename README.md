@@ -12,7 +12,7 @@ composer create-project easy-tool/easy-tool .
 
 ## Standards
 
-The framework is following these standards:
+The framework follows below standards:
 
 |Standard|Title|Description|
 |---|---|---|
