@@ -46,9 +46,9 @@ The framework is following these standards:
 
 |Directory|Description|
 |---|---|
-|`Command`|System retrieves instantiable classes which extend `Symfony\Component\Console\Command\Command` as console commands.|
-|`Controller/Api`|Store |
-|`Controller/Backend`||
-|`Controller/Frontend`||
-|`Setup`||
+|`Command`|System retrieves instantiable classes, which extend `Symfony\Component\Console\Command\Command`, as console commands.|
+|`Controller/Api`|Store API controller classes.|
+|`Controller/Backend`|Store backend controller classes.|
+|`Controller/Frontend`|Store frontend controller classes.|
+|`Setup`|System retrieves instantiable classes, which extend `EasyTool\Framework\App\Module\Setup\AbstractSetup`, as setup scripts on runnig `setup:upgrade` command.|
 |`config`||
