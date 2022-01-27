@@ -2,6 +2,12 @@
 
 This is a simple PHP framework built with [Composer](https://getcomposer.org/).
 
+## Environment Requirement
+
+- PHP 7.4+
+- MySQL 5.7+
+- Redis
+
 ## Installation
 
 Create a new folder as project root, execute below command to get source files.
