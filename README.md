@@ -55,12 +55,13 @@ composer create-project easy-tool/easy-tool .
 
 ### Module Structure
 
+File structure of each module is flexible, but some directries are still need to follow their rules:
+
 |Directory|Description|
 |---|---|
 |`Command`|System retrieves instantiable classes, which extend `Symfony\Component\Console\Command\Command`, as console commands.|
-|`Controller/Api`|Store API controller classes.|
-|`Controller/Backend`|Store backend controller classes.|
-|`Controller/Frontend`|Store frontend controller classes.|
+|`Controller/Backend`|System retrieves backend controller classes from this folder.|
+|`Controller/Frontend`|System retrieves frontend controller classes from this folder.|
 |`Setup`|System retrieves instantiable classes, which extend `EasyTool\Framework\App\Module\Setup\AbstractSetup`, as setup scripts on runnig `setup:upgrade` command.|
 |`config`|Module config files.|
 
