@@ -46,7 +46,7 @@ composer create-project easy-tool/easy-tool .
 
 |Directory|Description|
 |---|---|
-|`app/config`|Application config files.|
+|`app/config`|Contains application config files, see [here](#application-config) for more details.|
 |`app/modules`|Store local customized modules. For example, a customer module may be located at `app/modules/Customer`, with namespace prefix `App\Customer\`.|
 |`bin`|There is a `run` file which is used to execute console command.|
 |`pub`|Store files which can be accessed through internet.|
@@ -63,7 +63,7 @@ File structure of each module is flexible, but some directries are still need to
 |`Controller/Backend`|System retrieves backend controller classes from this folder.|
 |`Controller/Frontend`|System retrieves frontend controller classes from this folder.|
 |`Setup`|System retrieves instantiable classes, which extend `EasyTool\Framework\App\Module\Setup\AbstractSetup`, as setup scripts on runnig `setup:upgrade` command.|
-|`config`|Module config files.|
+|`config`|Module config files, see [here](#module-config) for more details.|
 
 ## Config Files
 
