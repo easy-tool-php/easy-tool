@@ -2,23 +2,14 @@
 
 This is a simple PHP framework built with [Composer](https://getcomposer.org/).
 
-## Environment Requirement
+It uses below libraries:
 
-- PHP 7.4+
-- MySQL 5.7+
-- Redis
+- https://docs.laminas.dev/laminas-cache/
+- https://docs.laminas.dev/laminas-db/
+- https://docs.laminas.dev/laminas-di/
+- https://symfony.com/doc/current/console.html
 
-## Installation
-
-Create a new folder as project root, execute below command to get source files.
-
-```sh
-composer create-project easy-tool/easy-tool .
-```
-
-## Standards
-
-The framework follows below standards:
+and follows below standards:
 
 |Standard|Title|Description|
 |---|---|---|
@@ -34,6 +25,20 @@ The framework follows below standards:
 |[PSR-15](https://www.php-fig.org/psr/psr-15/)|HTTP Server Request Handlers|Implements<br/>- `\Psr\Http\Message\ServerRequestInterface`<br/>- `\Psr\Http\Server\RequestHandlerInterface`|
 |[PSR-17](https://www.php-fig.org/psr/psr-17/)|HTTP Factories|Implements<br/>- `\Psr\Http\Message\RequestFactoryInterface`<br/>- `\Psr\Http\Message\ResponseFactoryInterface`<br/>- `\Psr\Http\Message\StreamFactoryInterface`<br/>- `\Psr\Http\Message\UriFactoryInterface`|
 |[PSR-18](https://www.php-fig.org/psr/psr-18/)|HTTP Client|pending|
+
+## Environment Requirement
+
+- PHP 7.4+
+- MySQL 5.7+
+- Redis
+
+## Installation
+
+Create a new folder as project root, execute below command to get source files.
+
+```sh
+composer create-project easy-tool/easy-tool .
+```
 
 ## File Structure
 
