@@ -52,3 +52,18 @@ The framework follows below standards:
 |`Controller/Frontend`|Store frontend controller classes.|
 |`Setup`|System retrieves instantiable classes, which extend `EasyTool\Framework\App\Module\Setup\AbstractSetup`, as setup scripts on runnig `setup:upgrade` command.|
 |`config`|Module config files.|
+
+## Config Files
+
+### Application config
+
+|Filename|Description|
+|---|---|
+|`di.php`|Dependency injection configuration, see [https://docs.laminas.dev/laminas-di/v3/config/](https://docs.laminas.dev/laminas-di/v3/config/).|
+|`env.php`|Environment settings.|
+|`events.php`|Events settings.|
+|`middlewares.php`|Middleware settings for handling HTTP request.|
+|`modules.php`|Module status.|
+
+### Module config
+
