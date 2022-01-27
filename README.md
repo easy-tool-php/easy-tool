@@ -28,3 +28,14 @@ The framework is following these standards:
 |[PSR-15](https://www.php-fig.org/psr/psr-15/)|HTTP Server Request Handlers|Implements<br/>- `\Psr\Http\Message\ServerRequestInterface`<br/>- `\Psr\Http\Server\RequestHandlerInterface`|
 |[PSR-17](https://www.php-fig.org/psr/psr-17/)|HTTP Factories|Implements<br/>- `\Psr\Http\Message\RequestFactoryInterface`<br/>- `\Psr\Http\Message\ResponseFactoryInterface`<br/>- `\Psr\Http\Message\StreamFactoryInterface`<br/>- `\Psr\Http\Message\UriFactoryInterface`|
 |[PSR-18](https://www.php-fig.org/psr/psr-18/)|HTTP Client|pending|
+
+## File Structrure
+
+|Directory|Description
+|---|---|
+|`app/config`|Application config files.|
+|`app/modules`||
+|`bin`|There is a `run` file which is used to execute console command.|
+|`pub`|Include files |
+|`var`|Temp|
+|`vendor`|Composer library folder.|
