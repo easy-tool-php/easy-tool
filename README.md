@@ -51,4 +51,4 @@ The framework is following these standards:
 |`Controller/Backend`|Store backend controller classes.|
 |`Controller/Frontend`|Store frontend controller classes.|
 |`Setup`|System retrieves instantiable classes, which extend `EasyTool\Framework\App\Module\Setup\AbstractSetup`, as setup scripts on runnig `setup:upgrade` command.|
-|`config`||
+|`config`|Module config files.|
