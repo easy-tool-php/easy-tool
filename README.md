@@ -85,3 +85,4 @@ File structure of each module is flexible, but some directries are still need to
 |`api.php`|HTTP API route list.|
 |`di.php`|Dependency injection configuration, check [https://docs.laminas.dev/laminas-di/v3/config/](https://docs.laminas.dev/laminas-di/v3/config/#configuration) for more details.|
 |`events.php`|Event listener settings, file structure is same with the application one.|
+|`module.php`|Module informations including `name` and `route` (backend/frontend).|
