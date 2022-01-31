@@ -7,6 +7,7 @@ It uses below libraries:
 - https://docs.laminas.dev/laminas-cache/
 - https://docs.laminas.dev/laminas-db/
 - https://docs.laminas.dev/laminas-di/
+- https://docs.laminas.dev/laminas-session/
 - https://symfony.com/doc/current/console.html
 
 and follows below standards:
