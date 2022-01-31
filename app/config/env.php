@@ -18,11 +18,20 @@ return [
     ],
     'database' => [
         'default' => [
-            'driver'  => 'Pdo_Mysql',
+            'driver'   => 'Pdo_Mysql',
             'host'     => 'easy_tool_mysql',
             'database' => 'project',
             'username' => 'project',
             'password' => 'project'
+        ]
+    ],
+    'session'  => [
+        'adapter'         => 'redis',
+        'adapter_options' => [
+            'database' => 1,
+            'server'   => [
+                'host' => 'easy_tool_redis'
+            ]
         ]
     ]
 ];
