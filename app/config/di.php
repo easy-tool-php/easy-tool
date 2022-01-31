@@ -14,13 +14,21 @@ return [
         'Psr\Http\Server\RequestHandlerInterface'   => 'EasyTool\Framework\App\Http\Server\Request\Handler',
     ],
     'types'       => [
-        'EasyTool\Framework\App\Cache\Manager' => [
+        'EasyTool\Framework\App\Cache\Manager'      => [
             'parameters' => [
                 'cacheItems'       => [
                     'modules' => true
                 ],
                 'storageFactories' => [
-                    'redis' => singleton('EasyTool\Framework\App\Cache\Adapter\RedisFactory')
+                    'redis' => 'EasyTool\Framework\App\Cache\Adapter\RedisFactory'
+                ]
+            ]
+        ],
+        'EasyTool\Framework\App\Session\Middleware' => [
+            'parameters' => [
+                'adapters' => [
+                    'files' => 'EasyTool\Framework\App\Session\Adapter\Files',
+                    'redis' => 'EasyTool\Framework\App\Session\Adapter\Redis'
                 ]
             ]
         ]
