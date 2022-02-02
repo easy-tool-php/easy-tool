@@ -16,9 +16,6 @@ return [
     'types'       => [
         'EasyTool\Framework\App\Cache\Manager'      => [
             'parameters' => [
-                'cacheItems'       => [
-                    'modules' => true
-                ],
                 'storageFactories' => [
                     'redis' => 'EasyTool\Framework\App\Cache\Adapter\RedisFactory'
                 ]
