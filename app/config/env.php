@@ -8,13 +8,7 @@ return [
         'route' => 'admin'
     ],
     'cache'    => [
-        'adapter' => 'redis',
-        'options' => [
-            'database' => 0,
-            'server'   => [
-                'host' => 'easy_tool_redis'
-            ]
-        ]
+        'adapter' => 'files'
     ],
     'database' => [
         'default' => [
@@ -26,12 +20,6 @@ return [
         ]
     ],
     'session'  => [
-        'adapter'         => 'redis',
-        'adapter_options' => [
-            'database' => 1,
-            'server'   => [
-                'host' => 'easy_tool_redis'
-            ]
-        ]
+        'adapter' => 'files'
     ]
 ];
