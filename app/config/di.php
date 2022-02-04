@@ -17,8 +17,8 @@ return [
         'EasyTool\Framework\App\Cache\Manager'      => [
             'parameters' => [
                 'storageFactories' => [
-                    'files' => 'EasyTool\Framework\App\Cache\Adapter\FilesystemFactory',
-                    'redis' => 'EasyTool\Framework\App\Cache\Adapter\RedisFactory'
+                    'files' => 'EasyTool\Framework\App\Cache\Adapter\Filesystem\Factory',
+                    'redis' => 'EasyTool\Framework\App\Cache\Adapter\Redis\Factory'
                 ]
             ]
         ],
