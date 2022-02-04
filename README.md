@@ -31,7 +31,6 @@ and follows below standards:
 
 - PHP 7.4+
 - MySQL 5.7+
-- Redis
 
 ## Installation
 
