@@ -25,7 +25,7 @@ and follows below standards:
 |[PSR-14](https://www.php-fig.org/psr/psr-14/)|Event Dispatcher|Implements<br/>- `\Psr\EventDispatcher\EventDispatcherInterface`<br/>-  `\Psr\EventDispatcher\ListenerProviderInterface`|
 |[PSR-15](https://www.php-fig.org/psr/psr-15/)|HTTP Server Request Handlers|Implements<br/>- `\Psr\Http\Message\ServerRequestInterface`<br/>- `\Psr\Http\Server\RequestHandlerInterface`|
 |[PSR-17](https://www.php-fig.org/psr/psr-17/)|HTTP Factories|Implements<br/>- `\Psr\Http\Message\RequestFactoryInterface`<br/>- `\Psr\Http\Message\ResponseFactoryInterface`<br/>- `\Psr\Http\Message\StreamFactoryInterface`<br/>- `\Psr\Http\Message\UriFactoryInterface`|
-|[PSR-18](https://www.php-fig.org/psr/psr-18/)|HTTP Client|pending|
+|[PSR-18](https://www.php-fig.org/psr/psr-18/)|HTTP Client|Implements<br/>- `\Psr\Http\Client\ClientInterface`|
 
 ## Environment Requirement
 
